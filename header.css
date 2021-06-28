@@ -1,0 +1,192 @@
+.lnb_container {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 3px;
+}
+.lnb nav {
+  display: flex;
+}
+.lnb nav li {
+  border-left: 1px solid lightgray;
+}
+.lnb nav li:nth-child(1) {
+  border-left: none;
+}
+.lnb nav li a {
+  padding: 0 8px;
+  text-decoration: none;
+  font-size: 11px;
+  color: #777;
+  line-height: 15px;
+  font-family: dotum, 돋움, '굴림', Gulim, Tahoma, sans-serif;
+}
+.lnb nav li a:hover {
+  text-decoration: underline;
+}
+
+.header_container {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.header h1 img {
+  width: 214px;
+  height: 80px;
+  vertical-align: middle;
+}
+.search_inner {
+  width: 400px;
+  height: 32px;
+  border-bottom: 4px solid #e63740;
+  display: flex;
+}
+.search_input_keyword {
+  width: 355px;
+  height: 26px;
+  margin: 4px 0 0 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: 10px 6px;
+  border: 0 none;
+  outline: 0 none;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Malgun Gothic', '맑은고딕', '굴림', Gulim, dotum, '돋움', Tahoma,
+    sans-serif;
+  line-height: 25px;
+  font-weight: bold;
+  vertical-align: top;
+}
+.search_btn_ok {
+  width: 22px;
+  height: 29px;
+  border: none;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) -212px -90px
+    no-repeat;
+  text-indent: -10000em;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: auto;
+}
+.promo {
+  margin-left: auto;
+}
+.promo img {
+  width: 148px;
+  height: 60px;
+}
+
+.gnb {
+  border-top: 1px solid lightgray;
+}
+.gnb_container {
+  display: flex;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gnb_container .layout_left {
+  display: flex;
+  align-items: center;
+}
+.gnb_container .layout_left nav {
+  display: flex;
+}
+.all_category {
+  margin-top: 15px;
+}
+.all_category a {
+  height: 17px;
+  padding: 14px 12px 13px 13px;
+  text-decoration: none;
+}
+.all_category span {
+  display: inline-block;
+  height: 17px;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) 0 0
+    no-repeat;
+  vertical-align: middle;
+  text-indent: -10000em;
+  overflow: hidden;
+  width: 98px;
+  background-position: 0 -760px;
+}
+.primary {
+  margin-left: 6px;
+}
+.primary li {
+  margin-top: 15px;
+  padding: 0 10px;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) -140px -160px
+    no-repeat;
+  position: relative;
+}
+.primary li a {
+  display: block;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) 0 0
+    no-repeat;
+  text-indent: -10000em;
+  overflow: hidden;
+  width: 61px;
+  height: 13px;
+}
+.primary li .primary_1 {
+  background-position: -140px -760px;
+}
+.primary li .primary_2 {
+  background-position: -140px -780px;
+}
+.primary li .primary_3 {
+  background-position: -140px -840px;
+}
+.primary li .primary_4 {
+  background-position: -140px -820px;
+}
+.bnr_smileclub_premium {
+  display: inline-block;
+  position: absolute;
+  top: -24px;
+  left: 7px;
+  width: 84px;
+  height: 22px;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) 0 -1613px no-repeat;
+  text-indent: -9999px;
+}
+.gnb_container .layout_right {
+  display: flex;
+}
+.corenavi {
+  position: relative;
+}
+.navi_opener {
+  position: relative;
+  display: inline-block;
+  height: 17px;
+  padding: 14px 12px 13px 13px;
+  text-decoration: none;
+  z-index: 2;
+}
+.corenavi a.navi_opener > span {
+  width: 76px;
+  background-position: 0 -840px;
+  display: inline-block;
+  height: 17px;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) 0 0
+    no-repeat;
+  vertical-align: middle;
+  text-indent: -10000em;
+  overflow: hidden;
+}
+.corenavi.navi_member a.navi_opener > span {
+  width: 76px;
+  background-position: 0 -840px;
+}
+.corenavi.navi_latest a.navi_opener > span {
+  width: 94px;
+  background-position: 0 -900px;
+}
