@@ -130,3 +130,6 @@ li {
   font-family: '굴림', Gulim, dotum, 돋움, Tahoma, sans-serif;
   box-sizing: content-box;
 }
+em {
+  font-style: normal;
+}

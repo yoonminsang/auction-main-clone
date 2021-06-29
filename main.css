@@ -1,0 +1,587 @@
+main.main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+.hp_side_banner {
+  width: 1160px;
+  position: absolute;
+  top: 0;
+  left: -90px;
+  z-index: 10030;
+}
+.hp_side_banner .side_banner1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10030;
+  width: 82px;
+  height: 240px;
+}
+.hp_side_banner .side_banner2 {
+  position: absolute;
+  top: 246px;
+  left: 0;
+  z-index: 10030;
+  width: 82px;
+  height: 141px;
+}
+
+.top_mini_banner {
+  width: 155px;
+  /* margin-top: 306px; */
+  margin-top: 297px;
+  text-align: center;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.top_main_banner {
+  margin-left: 155px;
+  position: relative;
+  z-index: 1;
+}
+.top_main_banner .main_box {
+  height: 387px;
+  width: 825px;
+  overflow: hidden;
+}
+.top_main_banner ul {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
+}
+.top_main_banner ul li > a {
+  height: 34px;
+  font-family: 'Malgun Gothic', 맑은고딕, Dotum, 돋움;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 32px;
+}
+.top_main_banner ul li {
+  float: left;
+  position: relative;
+  z-index: 2;
+  background: #fff url(//pics.iacstatic.co.kr/homepage/title_line.gif) left
+    center no-repeat;
+}
+.top_main_banner ul li:first-child a {
+  border-left: none;
+}
+.top_main_banner ul a {
+  display: block;
+  width: 115px;
+  font-family: 'Malgun Gothic', 맑은고딕, dotum, 돋움;
+  line-height: 13px;
+  text-align: center;
+  display: block;
+}
+.hp_allkill {
+  padding: 30px 0 0;
+  font-family: 'Malgun gothic', 맑은고딕, dotum, 돋움;
+}
+.hp_allkill .allkill_title {
+  position: relative;
+  margin-bottom: 20px;
+  height: 28px;
+  font-size: 13px;
+  color: #222;
+  text-align: center;
+}
+.hp_allkill .tit {
+  display: inline-block;
+  *zoom: 1;
+  *display: block;
+  width: 158px;
+  height: 28px;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat;
+  text-indent: -9999em;
+}
+.bt_more {
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat right
+    4px;
+  padding-right: 9px;
+}
+.hp_allkill .allkill_title a.bt_more {
+  display: block;
+  position: absolute;
+  top: 9px;
+  right: 0;
+  font-family: 'Malgun gothic', 맑은고딕, dotum, 돋움;
+  font-size: 13px;
+  color: #777777;
+}
+.item_list_type1,
+.item_list_type1 div.inner {
+  position: relative;
+}
+.pnum {
+  position: absolute;
+  top: -42px;
+  left: 588px;
+  font-size: 18px;
+  font-family: 'Malgun Gothic', 맑은고딕, dotum, 돋움;
+  color: #999;
+  line-height: 21px;
+}
+.pnum em {
+  color: #000;
+}
+.hp_allkill .item_list_type1 div.touchSlider-box {
+  height: 560px;
+}
+.item_list {
+  width: 980px;
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.item_list .item_list .inner {
+  position: relative;
+  border: 1px solid #eee;
+  background: #fff;
+}
+.item_list .thumb {
+  width: 318px;
+  height: 165px;
+}
+.item_list .title {
+  display: block;
+  overflow: hidden;
+  height: 19px;
+  margin: 12px 13px 0;
+  font-size: 15px;
+  color: #222;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: 0;
+}
+.item_list .info {
+  position: relative;
+  padding: 4px 13px 0;
+}
+.item_list .sale {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 20px;
+  color: #e63740;
+  vertical-align: top;
+}
+.item_list .sale strong {
+  font-weight: normal;
+}
+.item_list .sale span {
+  overflow: hidden;
+  position: absolute;
+  top: -999em;
+  left: -999em;
+}
+.price {
+  color: #f94209;
+}
+.item_list .price strong {
+  font-size: 20px;
+  color: #222;
+}
+.item_list .price strong span {
+  position: relative;
+  top: -1px;
+  padding-right: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  vertical-align: middle;
+}
+.item_list .price strong {
+  font-size: 20px;
+  color: #222;
+}
+.item_list .price del {
+  position: relative;
+  top: -2px;
+  font-size: 12px;
+  color: #999;
+}
+.item_list .tags {
+  display: block;
+  height: 18px;
+  margin: 10px -1px 0;
+  padding: 8px 1px 10px;
+  border-top: 1px solid #f3f3f3;
+}
+.item_list .tag {
+  display: inline-block;
+  height: 17px;
+  color: #666;
+  font-size: 11px;
+  line-height: 17px;
+}
+.item_list .tag .ico_sm {
+  width: 14px;
+  height: 14px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+.item_list .tag .tag_strong {
+  font-weight: normal;
+  color: #2e8de5;
+}
+.item_list .tag .ico_bar {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 1px;
+  height: 12px;
+  margin: 0 7px 0 8px;
+  background: #ebebeb;
+  vertical-align: middle;
+}
+.item_list .option {
+  position: absolute;
+  bottom: 11px;
+  right: 14px;
+}
+.item_list .option .buy {
+  display: inline-block;
+  font-size: 11px;
+  color: #666;
+  line-height: 16px;
+}
+.item_list .option .buy strong {
+  font-weight: normal;
+  color: #2e8de5;
+}
+.prev,
+.next {
+  margin-top: -14px;
+  width: 41px;
+  height: 41px;
+  font-size: 0px !important;
+  color: #666;
+  position: absolute;
+  top: 48%;
+  z-index: 1;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -786px -314px;
+  cursor: pointer;
+}
+.hp_allkill .prev,
+.hp_allkill .next {
+  display: block;
+  top: 269px;
+  width: 48px;
+  height: 48px;
+}
+.hp_allkill .prev {
+  left: -48px;
+  background-position: -142px -136px;
+}
+.hp_allkill .next {
+  right: -48px;
+  background-position: -192px -136px;
+}
+.hotspot_tit {
+  position: relative;
+}
+.hotspot_tit h3 {
+  width: 112px;
+  margin: 45px auto 19px;
+  height: 23px;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -372px -23px;
+  text-indent: -9999px;
+}
+.hotspot_tit .bt_more {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-family: 'Malgun gothic', 맑은고딕, dotum, 돋움;
+  font-size: 13px;
+  color: #777777;
+}
+.hotspot_bnr_lst {
+  margin: 19px 0 0 -12px;
+  display: flex;
+}
+.hotspot .hotspot_bnr_lst li {
+  margin-left: 12px;
+  position: relative;
+}
+.hotspot .hotspot_bnr_lst li img {
+  width: 112px;
+  height: 147px;
+}
+.hotspot .hotspot_bnr_lst .hotspot_smileclub {
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: -17px;
+  z-index: 1;
+  width: 156px;
+  height: 31px;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat 0 -103px;
+  text-indent: -9999px;
+}
+.hotspot .hotspot_brand {
+  position: relative;
+}
+.hotspot .hotspot_brand_lst {
+  overflow: hidden;
+  position: relative;
+  width: 980px;
+  height: 375px;
+  margin-top: 30px;
+  display: flex;
+}
+.hotspot .hotspot_brand_lst li.on,
+.hotspot .hotspot_brand_lst li:hover a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.hotspot .hotspot_brand_lst li .brand_tab {
+  display: inline-block;
+  width: 162px;
+  height: 33px;
+  padding-top: 11px;
+  border-top: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  font-family: 'Malgun gothic', 맑은고딕, dotum, 돋움;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+.hotspot .hotspot_brand_lst li:first-child .brand_tab {
+  width: 163px;
+  border-left: 1px solid #e5e5e5;
+}
+.hotspot .hotspot_brand_lst li.on .brand_tab.type1,
+.hotspot .hotspot_brand_lst li:hover .brand_tab.type1 {
+  background: #cae6ff;
+}
+.hotspot .hotspot_brand_lst li .brand_cont {
+  display: block;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  z-index: 0;
+  width: 980px;
+  height: 375px;
+}
+.hotspot .hotspot_brand_lst li .brand_cont.bg1 {
+  background: url(//pics.iacstatic.co.kr/pc/hp/bg_hotspot1.jpg) no-repeat 0 0;
+}
+.hotspot .hotspot_brand_lst li .brand_cont li {
+  position: absolute;
+}
+.hotspot .hotspot_brand_lst li .brand_cont li.bnr_big {
+  top: 12px;
+  left: 50px;
+}
+.hotspot .hotspot_brand_lst li .brand_cont li a {
+  background: transparent;
+}
+.hotspot .hotspot_brand_lst li .brand_cont li.bnr_s1 {
+  top: 12px;
+  left: 600px;
+}
+.hotspot .hotspot_brand_lst li .brand_cont li.bnr_s2 {
+  top: 12px;
+  left: 780px;
+}
+.hotspot .hotspot_brand_lst li .brand_cont li.bnr_s3 {
+  top: 164px;
+  left: 600px;
+}
+.hotspot .hotspot_brand_lst li .brand_cont li.bnr_s4 {
+  top: 164px;
+  left: 780px;
+}
+.hp_best {
+  margin: 30px 0 29px;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+}
+.hp_best .best_title {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.hp_best .best_title .tit {
+  margin: auto;
+  display: block;
+  width: 124px;
+  height: 26px;
+  font-size: 0px;
+  color: #fff;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -372px -49px;
+}
+.hp_best .best_title a.bt_more {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-family: 'Malgun gothic', 맑은고딕, dotum, 돋움;
+  font-size: 13px;
+  color: #777777;
+}
+.hp_best .pnum {
+  top: 1px;
+  left: 553px;
+}
+.hp_best_tab {
+  margin: 18px auto 0;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+.hp_best_tab .touchSlider-box-tab {
+  position: relative;
+  overflow: hidden;
+  width: 980px;
+}
+.swiper-wrapper.touchSlider-tab.nav_list {
+  display: flex;
+}
+.hp_best_tab .nav_list .nav_item {
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  height: 46px;
+  margin: 0;
+  padding: 0 18px;
+  background: url(//pics.iacstatic.co.kr/pc/hp/bg_best_tab.gif) no-repeat 0 0;
+  font-family: 'Malgun gothic', 맑은고딕, dotum, 돋움;
+  font-size: 15px;
+  color: #666666;
+  cursor: pointer;
+  line-height: 46px;
+  vertical-align: top;
+}
+.hp_best_tab .nav_list .nav_item:first-child {
+  background: none;
+}
+.hp_best_tab .nav_list .nav_item:hover,
+.hp_best_tab .nav_list .nav_item.on {
+  display: inline-block;
+  height: 43px;
+  font-weight: bold;
+  color: #454c5f;
+  border-bottom: 3px solid #eb000a;
+  font-weight: bold;
+  color: #000000;
+  line-height: 46px;
+}
+.hp_best_tab .next.bestbt {
+  right: 0;
+  top: 15px;
+  background-position: -812px -386px;
+}
+.hp_best div.touchSlider-box {
+  position: relative;
+  overflow: hidden;
+  height: 276px;
+  width: 953px;
+  margin-left: 13px;
+}
+.hp_best div .item-list-img {
+  margin: 42px 0 0;
+  display: flex;
+  padding: 0;
+}
+.hp_galley_st .item-list-img .showcase_con {
+  margin-left: 25px;
+}
+.hp_galley_st .item-list-img .showcase_img {
+  margin-bottom: 13px;
+  position: relative;
+  display: block;
+}
+.hp_galley_st .item-list-img .showcase_img img {
+  width: 130px;
+  height: 130px;
+}
+.hp_best .showcase_img span {
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat 0 -291px;
+}
+.hp_galley_st .item-list-img .showcase_img span,
+.hp_galley_st .item-list-img .showcase_img em.close_btn {
+  width: 26px;
+  height: 26px;
+  font-size: 0;
+  line-height: 0;
+  color: #000;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: -26px 0 0 0;
+}
+.hp_best .item-list-img .showcace_info {
+  text-align: center;
+  display: block;
+  position: relative;
+  height: 57px;
+}
+.hp_galley_st .item-list-img .showcace_info > span {
+  display: inline-block;
+  height: 16px;
+  overflow: hidden;
+  font-family: 'Malgun gothic', 맑은고딕, dotum, 돋움;
+  font-size: 13px;
+  color: #333333;
+  line-height: 16px;
+}
+.hp_galley_st .item-list-img .showcace_info del {
+  color: #b2b2b2;
+  display: block;
+}
+.hp_best .item-list-img .showcace_info del {
+  padding: 4px 0 0;
+  font-family: Tahoma;
+  font-size: 12px;
+}
+.hp_best .item-list-img .showcace_info em {
+  font-family: Tahoma;
+  color: #000;
+  font-size: 17px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.hp_best .showcase_img span.num2 {
+  background-position: -27px -291px;
+}
+.hp_galley_st .item-list-img .showcase_con {
+  margin-left: 25px;
+  width: 130px;
+}
+.hp_best .showcase_img span.num3 {
+  background-position: -54px -291px;
+}
+.hp_best .showcase_img span.num4 {
+  background-position: -81px -291px;
+}
+.hp_best .showcase_img span.num5 {
+  background-position: -108px -291px;
+}
+.hp_best .showcase_img span.num6 {
+  background-position: -135px -291px;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+  background-position: -814px -316px;
+}
+.hp_best .prev,
+.hp_best .next {
+  top: 62%;
+}
+.hp_thema {
+  margin: 29px 0 0;
+}

@@ -82,7 +82,14 @@
 }
 
 .gnb {
-  border-top: 1px solid lightgray;
+  width: 100%;
+  height: 47px;
+  margin-bottom: -2px;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) repeat-x 0 -275px;
+  font-size: 12px;
+  line-height: 120%;
+  font-family: '굴림', Gulim, Tahoma, sans-serif;
+  color: #333;
 }
 .gnb_container {
   display: flex;
@@ -189,4 +196,77 @@
 .corenavi.navi_latest a.navi_opener > span {
   width: 94px;
   background-position: 0 -900px;
+}
+.gnb .corenavi.navi_allmenu .navi_dropdown {
+  width: 155px;
+}
+.gnb .corenavi .navi_dropdown {
+  position: absolute;
+  /* top: 43px; */
+  top: 24px;
+  left: 0;
+  background: #fff;
+  font-size: 12px;
+  line-height: 120%;
+  font-family: '굴림', Gulim, Tahoma, sans-serif;
+  color: #333;
+  z-index: 1;
+}
+.allmenu {
+  position: relative;
+  width: 153px;
+  border: 1px solid #2f3345;
+  border-bottom: none;
+  background: #454c5f;
+  height: 307px;
+}
+.allmenu > ul > li > a {
+  padding: 0;
+  display: block;
+  width: 153px;
+  height: 33px;
+  position: relative;
+  z-index: 5;
+  background: url(//pics.auction.co.kr/pc/common/header/header.png) no-repeat 0
+    0;
+  overflow: hidden;
+  line-height: 1;
+  text-indent: -1000px;
+  font-size: 0;
+}
+.allmenu a.allmenu_cate10 {
+  background-position: 0 -397px;
+}
+.allmenu a.allmenu_cate01 {
+  background-position: 0 -430px;
+}
+.allmenu a.allmenu_cate02 {
+  background-position: 0 -464px;
+}
+.allmenu a.allmenu_cate03 {
+  background-position: 0 -498px;
+}
+.allmenu a.allmenu_cate04 {
+  background-position: 0 -532px;
+}
+.allmenu a.allmenu_cate05 {
+  background-position: 0 -566px;
+}
+.allmenu a.allmenu_cate06 {
+  background-position: 0 -600px;
+}
+.allmenu a.allmenu_cate07 {
+  background-position: 0 -634px;
+}
+.allmenu a.allmenu_cate08 {
+  float: left;
+  width: 68px;
+  background-position: 0 -700px;
+  cursor: pointer;
+}
+.allmenu a.allmenu_cate09 {
+  float: left;
+  width: 85px;
+  background-position: -68px -700px;
+  cursor: pointer;
 }
