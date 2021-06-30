@@ -585,3 +585,389 @@ main.main {
 .hp_thema {
   margin: 29px 0 0;
 }
+.hp_thema .event_tit {
+  position: relative;
+  width: 117px;
+  height: 24px;
+  margin: 0 auto 7px;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -372px -102px;
+  text-indent: -9999px;
+}
+.hp_thema .item_list_type1 div.touchSlider-box {
+  overflow: hidden;
+  height: 538px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0 13px;
+}
+.hp_bot_ad {
+  *overflow: hidden;
+  margin: 29px 0;
+  width: 978px;
+  height: 237px;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+}
+.hp_bot_ad .chance_ad {
+  overflow: hidden;
+  position: relative;
+  width: 556px;
+  height: 216px;
+}
+.hp_bot_ad .tit_area .sub_title {
+  float: left;
+  height: 18px;
+  font-size: 0;
+  line-height: 0;
+  color: #fff;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat;
+}
+.hp_bot_ad .chance_ad .tit_area .sub_title {
+  width: 64px;
+  background-position: 0 -29px;
+}
+.hp_bot_ad .chance_ad,
+.hp_bot_ad .chance_item {
+  padding: 0 12px 13px;
+}
+.hp_bot_ad .chance_ad {
+  overflow: hidden;
+  position: relative;
+  width: 556px;
+  height: 216px;
+}
+.hp_bot_ad .tit_area .ad_i.ad_mark_wrap {
+  float: left;
+  position: relative;
+  top: 3px;
+  left: 8px;
+  right: 0;
+  z-index: 1;
+  width: 15px;
+}
+.ad_mark_wrap .ad_btn {
+  display: block;
+  width: 13px;
+  height: 13px;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) -44px -1321px
+    no-repeat;
+  font-size: 0;
+  text-indent: -999px;
+}
+.hp_bot_ad .tit_area .ad_i.ad_mark_wrap .ad_btn {
+  width: 45px;
+  height: 18px;
+  margin-top: -3px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.hp_bot_ad .chance_ad > span {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  font-family: Tahoma;
+  font-size: 12px;
+}
+.hp_bot_ad .tit_area:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.chance_ad .item_list_type1 .touchSlider-box {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 990px;
+  padding: 12px 19px 5px;
+  padding-left: 24px;
+}
+/* .chance_ad .item_list_type1 .touchSlider-box a {
+  width: 130px;
+} */
+.hp_bot_ad img {
+  width: 130px;
+  height: 130px;
+}
+.hp_bot_ad .chance_ad,
+.hp_bot_ad .chance_item {
+  padding: 0 12px 13px;
+}
+.hp_bot_ad .chance_item {
+  width: 217px;
+  height: 216px;
+  padding-bottom: 0;
+}
+.hp_bot_ad a {
+  margin-top: 6px;
+  display: block;
+  text-align: center;
+  padding-top: 2px;
+  font-family: Gulim, '굴림', sans-serif;
+  font-size: 12px;
+}
+.hp_bot_ad a:first-child {
+  margin-top: 7px;
+  overflow: hidden;
+}
+.hp_bot_ad .chance_ad .tx a:first-child {
+  height: 28px;
+  width: 130px;
+}
+.hp_bot_ad .chance_ad .touchSlider-box > div {
+  margin-left: 64px;
+}
+.hp_bot_ad .chance_ad .touchSlider-box > div:nth-child(1) {
+  margin: 0;
+}
+.hp_bot_ad .tit_area .sub_title {
+  float: left;
+  height: 18px;
+  font-size: 0;
+  line-height: 0;
+  color: #fff;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat;
+}
+.hp_bot_ad .chance_item .tit_area .sub_title {
+  width: 79px;
+  background-position: 0 -50px;
+}
+.hp_bot_ad .tit_area .ad_i.ad_mark_wrap {
+  float: left;
+  position: relative;
+  top: 3px;
+  left: 8px;
+  right: 0;
+  z-index: 1;
+  width: 15px;
+}
+.hp_bot_ad .chance_item .grid {
+  padding: 12px 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hp_bot_ad .chance_item .grid div a {
+  margin: 7px 0 8px;
+  line-height: 1em;
+  font-size: 11px;
+  color: #666;
+}
+.hp_bot_ad .chance_item .grid img {
+  width: 60px;
+  height: 60px;
+}
+.hp_bot_ad:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.hp_bot_partner_title {
+  width: 136px;
+  height: 23px;
+  margin: 0 auto 24px;
+  font-size: 0;
+  line-height: 0;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -372px -156px;
+}
+.hp_bot_partner .partner_con {
+  margin-bottom: 29px;
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+  border-left: solid 2px #fff;
+  display: flex;
+}
+.hp_bot_partner .partner_con a img {
+  width: 121px;
+  height: 54px;
+  border-left: solid 1px #fff;
+}
+.hp_bot_corner {
+  overflow: hidden;
+  height: 347px;
+  border-bottom: 1px solid #ececec;
+}
+.hp_bot_corner .hp_bot_corner_title {
+  width: 162px;
+  height: 23px;
+  margin: 0 auto 24px;
+  font-size: 0;
+  line-height: 0;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -524px 0;
+}
+.module-wrap-wide {
+  width: 793px;
+  float: left;
+}
+.modrow-links {
+  height: 223px;
+  overflow: hidden;
+}
+.module {
+  position: relative;
+}
+.module-row .module-wrap,
+.module-row .module-wrap-wide,
+.module-row .module {
+  float: left;
+}
+.modrow-links .module {
+  width: 132px;
+}
+.modrow-links .module:first-child {
+  width: 133px;
+}
+.mod-title {
+  font-size: 100%;
+  left: 12px;
+  line-height: 1;
+  position: absolute;
+  top: 12px;
+}
+.modrow-links .module:first-child dt {
+  border-left: 1px solid #dfdfdf;
+}
+.modrow-links .mod-title {
+  height: 35px;
+  padding: 0 0 0 16px;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999em;
+  background: #f7f7f7 url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -524px -199px;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  position: static;
+}
+.modrow-links .module:first-child dt {
+  border-left: 1px solid #dfdfdf;
+}
+.module-wrap-wide dd {
+  padding: 0 0 0 10px;
+  font-size: 12px;
+  line-height: 19px;
+  font-family: Tahoma, Gulim, '굴림', sans-serif;
+}
+.module-wrap-wide dt + dd {
+  margin-top: 5px;
+}
+.modrow-links .mod-title.type1 {
+  background-position: -524px -223px;
+}
+.modrow-links .mod-title.type2 {
+  background-position: -524px -247px;
+}
+.modrow-links .mod-title.type3 {
+  background-position: -524px -272px;
+}
+.modrow-links .mod-title.type4 {
+  background-position: -524px -297px;
+}
+.modrow-links .mod-title.type5 {
+  background-position: -524px -323px;
+}
+.mod-links {
+  border-top: 1px solid #ececec;
+  overflow: hidden;
+}
+.hp_bot_corner .module-wrap {
+  width: 187px;
+  float: left;
+  position: relative;
+}
+.mod-links .link-list {
+  overflow: hidden;
+}
+.mod-links .link-label {
+  margin-top: 6px;
+  width: 139px;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999em;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -363px -272px;
+  float: left;
+  height: 25px;
+  padding: 0 0 0 15px;
+}
+.mod-links .link {
+  float: left;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Tahoma, Gulim, '굴림', sans-serif;
+  font-weight: bold;
+  height: 27px;
+  padding: 6px 0 0 14px;
+}
+.mod-links .link-list + dl {
+  border: none;
+}
+.mod-links .link-list + .link-list dt {
+  background-position: -363px -317px;
+}
+.mod-links .link-list + .link-list dd a {
+  width: 525px;
+  height: 21px;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999em;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -25px -409px;
+}
+.hp_bot_corner .module-wrap .link_new-service {
+  display: block;
+  height: 35px;
+  font-size: 0;
+  line-height: 0;
+  border: 1px solid #dfdfdf;
+  border-left: 0;
+  background: #f7f7f7 url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -524px -348px;
+}
+.hp_bot_corner .module-wrap a img {
+  border-left: 1px solid #ececec;
+}
+.mod-announcements {
+  height: 76px;
+  overflow: hidden;
+  width: 186px;
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+}
+.mod-announcements dt {
+  margin: 12px 0 5px 15px;
+  height: 15px;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999em;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -356px -343px;
+}
+.mod-announcements .mod-more {
+  position: absolute;
+  display: inline-block;
+  padding-top: 1px;
+  right: 15px;
+  top: 3px;
+  width: 30px;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat 33px -408px;
+  color: #7d7d7d;
+  padding-right: 6px;
+  font-size: 11px;
+  line-height: 14px;
+  font-family: Tahoma, Dotum, 'μ¸¿o', sans-serif;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: right;
+}
+.mod-announcements dd {
+  margin-left: 15px;
+  padding: 0 0 0 15px;
+  background: url(//pics.auction.co.kr/pc/hp/new_homepage.png) no-repeat -551px -403px;
+  line-height: 16px;
+  overflow: hidden;
+  padding-left: 7px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 156px;
+  margin-bottom: 5px;
+}
